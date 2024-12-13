@@ -1,5 +1,5 @@
 # Group-3---CPE106L-4-B6
-Main Github Repositoryin CPE106L-4 Software Design Laboratory
+Main Github Repository in CPE106L-4 Software Design Laboratory
 
 Members:
 
