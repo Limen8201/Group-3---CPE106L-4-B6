@@ -22,4 +22,5 @@ while lineNum != -1:
     lineNum = int(input("Please choose a line to print: "))
     if lineNum == 0:
         exit()
+        file.close()
     print(linecache.getline(fileName, lineNum))
