@@ -18,8 +18,8 @@ for x in file:
 print(fileName, "has", i, "line")
 
 lineNum = 0
-lineNum = int(input("Please choose a line to print: "))
-if lineNum == 0:
-    exit()
-  
-print(linecache.getline(fileName, lineNum) )
+while lineNum != -1:
+    lineNum = int(input("Please choose a line to print: "))
+    if lineNum == 0:
+        exit()
+    print(linecache.getline(fileName, lineNum))
