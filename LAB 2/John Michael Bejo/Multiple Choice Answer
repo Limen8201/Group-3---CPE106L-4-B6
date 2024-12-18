@@ -4,7 +4,7 @@
 4. b. [10, 20, 30, 40, 50]
 5. b. [10, 5, 30]
 6. c. [10, 15, 20, 30]
-7. a. ("name", "age")
+7. b. ["name", "age"]
 8. b. None
 9. b. pop
-10. a. dictionaries and lists
+10. b. strings and tuples
