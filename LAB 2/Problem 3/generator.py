@@ -7,13 +7,21 @@ and vocabulary.  Words are chosen at random.
 
 import random
 
-articles = ("A", "THE")
+def getWords(filename):
+    words = []
+    try:
+        with open(filename, 'r') as file:
+            for line in file:
+                words.append(line.strip().upper())
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+    return tuple(words)
 
-nouns = ("BOY", "GIRL", "BAT", "BALL")
 
-verbs = ("HIT", "SAW", "LIKED")
-
-prepositions = ("WITH", "BY")
+articles = getWords('articles.txt')
+nouns = getWords('nouns.txt')
+verbs = getWords('verbs.txt')
+prepositions = getWords('prepositions.txt')
 
 def sentence():
     """Builds and returns a sentence."""
@@ -33,8 +41,7 @@ def prepositionalPhrase():
     return random.choice(prepositions) + " " + nounPhrase()
 
 def main():
-    """Allows the user to input the number of sentences
-    to generate."""
+    """Allows the user to input the number of sentences to generate."""
     number = int(input("Enter the number of sentences: "))
     for count in range(number):
         print(sentence())
