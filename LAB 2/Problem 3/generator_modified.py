@@ -1,10 +1,3 @@
-"""
-Program: generator.py
-Author: Ken
-Generates and displays sentences using a simple grammar
-and vocabulary.  Words are chosen at random.
-"""
-
 import random
 
 def getWords(filename):
