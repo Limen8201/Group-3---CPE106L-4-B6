@@ -33,8 +33,9 @@ class Bank:
                     break
 
     def __str__(self):
-        """Returns the string representation of the bank."""
-        return "\n".join(map(str, self.accounts.values()))
+    """Returns the string representation of the bank."""
+    sorted_accounts = sorted(self.accounts.values(), key=lambda acc: acc.getName())
+    return "\n".join(map(str, sorted_accounts))
 
     def makeKey(self, name, pin):
         """Returns a key for the account."""
