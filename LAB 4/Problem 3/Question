@@ -1,1 +1,3 @@
-
+Create a card game in Python using object-oriented principles with two classes: Card and Deck. 
+The Card class should represent a card with a suit and value, while the Deck class manages a 52-card deck, shuffles it, and deals cards. 
+Include basic unit tests using the unittest framework to demonstrate functionality.
