@@ -1,1 +1,9 @@
+Solmaris Condominium Group has many condos that are available as weekly vacation rentals. Design a database to meet the following requirements: 
 
+For each renter, list his or her number, first name, middle initial, last name, address, city, state, postal code, telephone number, and email address. 
+
+For each property, list the condo location number, condo location name, address, city, state, postal code, condo unit number, square footage, 
+number of bedrooms, number of bathrooms, maximum number of people that can sleep in the unit, and the base weekly rate. 
+
+For each rental agreement, list the renter number, first name, middle initial, last name, address, city, state, postal code, telephone number, 
+start date of the rental, end date of the rental, and the weekly rental amount. The rental period is one or more weeks. 
