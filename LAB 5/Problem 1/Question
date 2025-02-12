@@ -1,1 +1,9 @@
+Colonial Adventure Tours is considering offering outdoor adventure classes to prepare people to participate in hiking, biking, and paddling adventures. Only one class is taught on any given day. Participants can enroll in one or more classes. Classes are taught by the guides that Colonial Adventure employs. Participants do not know who the instructor for a particular class will be until the day of the class. Colonial Adventure Tours needs your help with the database design for this new venture. In each step, represent your answer using the shorthand representation and a diagram. Use crow’s foot notation for the diagram. Follow the sample SQLite chinook database ERD (Download it from Blackboard Course Materials)
 
+a) For each participant, list his or her number, last name, first name, address, city, state, postal code, telephone number, and date of birth.
+
+b) For each adventure class, list the class number, class description, maximum number of people in the class, and class fee.
+
+c) For each participant, list his or her number, last name, first name, and the class number, class description, and date of the class for each class in which the participant is enrolled.
+
+d) For each class, list the class date, class number, and class description; and the number, last name, and first name of each participant in the class.
