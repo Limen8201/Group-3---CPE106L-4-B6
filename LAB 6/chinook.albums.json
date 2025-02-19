@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "67ab68ba5c33deee26276e96"
+  },
+  "AlbumId": 1,
+  "Title": "Lover",
+  "ArtistId": 1
+},
+{
+  "_id": {
+    "$oid": "67ab6a9c5c33deee26276eb6"
+  },
+  "AlbumId": 1,
+  "Title": "Doo-Wops and Hooligans",
+  "ArtistId": 1
+}]

@@ -1,0 +1,14 @@
+[{
+  "_id": {
+    "$oid": "67ab68a35c33deee26276e93"
+  },
+  "ArtistId": 1,
+  "Name": "Taylar Swift"
+},
+{
+  "_id": {
+    "$oid": "67ab6a295c33deee26276eb1"
+  },
+  "ArtistId": 2,
+  "Name": "Bruno Mars"
+}]
